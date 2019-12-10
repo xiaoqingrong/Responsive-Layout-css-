@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+<!-- 	响应式布局基本有三种写法：
+	1：
+	在style中使用@media分别为不同模式添加不同样式，例如：
+	/*屏幕宽度大于2014的时候，显示一行四列*/
+	@media all and (min-width: 1024px){
+	#div1,#div2,#div3,#div4{
+	width: 25%;
+	float: left;
+	}
+	}
+	
+	/*当屏幕宽度大于768小于1024（范围一定要明确指定）的时候，显示一行两列*/
+	@media all and (min-width: 768px) and (max-width: 1024px){
+	#div1,#div2,#div3,#div4{
+	width: 50%;
+	float: left;
+	}
+	}
+	/*当屏幕宽度小于768的时候，显示一行一列*/
+	@media all and (max-width: 768px){
+	#div1,#div2,#div3,#div4{
+	width: 100%;
+	float: left;
+	}
+	} -->
+	<style type="text/css">
+		div{
+			background-color: red;
+			width: 80%;
+			margin: 0 auto;
+		}
+		@media (max-width: 1024px){
+			div{
+				width: 50%;
+			}
+		}
+	</style>
+	<body>
+		<div id="">
+			好的
+		</div>
+	</body>
+</html>
